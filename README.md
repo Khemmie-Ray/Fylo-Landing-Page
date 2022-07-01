@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/Khemmie-Ray/Fylo-Landing-Page.git](https://github.com/Khemmie-Ray/Fylo-Landing-Page.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://khemmie-ray.github.io/Fylo-Landing-Page/](https://khemmie-ray.github.io/Fylo-Landing-Page/)
 
 ## My process
 

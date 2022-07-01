@@ -303,6 +303,10 @@ body {
     order: 2;
 }
 
+.col-img, .mid-img {
+    margin-bottom: 2em;
+}
+
 .btn, .mail, .form .btn,
 .form .mail{
     display: block;
