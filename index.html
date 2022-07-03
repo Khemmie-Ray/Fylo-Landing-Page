@@ -28,7 +28,7 @@
   </head>
   <body>
     <nav>
-      <img class="logo" src="images/logo.svg" alt="" />
+      <a href="#"><img class="logo" src="images/logo.svg" alt="Fylo logo" /></a>
       <ul class="navItems">
         <li><a href="#">Features</a></li>
         <li><a href="#">Team</a></li>
@@ -73,13 +73,13 @@
               collaboration machine.
             </p>
           </div>
-            <div class="bio">
-              <img src="images/avatar-testimonial.jpg" alt="" class="avatar"/>
-              <div class="bio-info">
+            <blockquote class="bio">
+              <img src="images/avatar-testimonial.jpg" alt="Kyle Burton" class="avatar"/>
+              <cite class="bio-info">
               <p><strong class="name">Kyle Burton</strong></p>
               <p class="work-role">Founder & CEO, Huddle</p>
-            </div>
-            </div>
+              </cite>
+            </blockquote>
           </div>
         </div>
         <div class="col-img mid-img">
@@ -96,15 +96,16 @@
             would be happy to help you.
           </p>
         </div>
-        <div class="form">
-          <input type="text" placeholder="email@example.com" class="mail"/>
+        <form class="formInfo">
+          <input type="text" placeholder="email@example.com" class="mail" />
           <button class="btn">Get Started For Free</button>
-        </div>
+        </form>
       </section>
     </main>
-    <section class="contact">
+    <footer>
+      <a href="#"><img src="images/logo-footer.svg" alt="Fylo logo" class="footerlogo"/></a>
+      <div class="contact">
       <div class="contact-info">
-      <img src="images/logo-footer.svg" alt="" />
       <p><img src="images/icon-phone.svg" alt="" /> Phone: +1-543-123-4567</p>
       <p><img src="images/icon-email.svg" alt="" /> example@fylo.com</p>
     </div>
@@ -120,20 +121,21 @@
           <li><a href="">Terms</a></li>
           <li><a href="">Privacy</a></li>
         </ul>
-        <div class="icons">
-          <div class="icons-img"><input type="image" src="images/icon-facebook.svg" alt="facebook" /></div>
-          <div  class="icons-img"><input type="image" src="images/icon-twitter.svg" alt="twitter" /></div>
-          <div  class="icons-img"><input type="image" src="images/icon-instagram.svg" alt="instagram" /></div>
-        </div>
+        <ul class="icons">
+          <li class="icons-img"><input type="image" src="images/icon-facebook.svg" alt="facebook" /></li>
+          <li class="icons-img"><input type="image" src="images/icon-twitter.svg" alt="twitter" /></li>
+          <li  class="icons-img"><input type="image" src="images/icon-instagram.svg" alt="instagram" /></li>
+        </ul>
       </div>
-    </section>
-    <footer>
+      </div>
+    </footer>
+    <address>
       <p class="attribution">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
         >. Coded by <a href="#">Khemmie Ray</a>.
       </p>
-    </footer>
+    </address>
   </body>
 </html>

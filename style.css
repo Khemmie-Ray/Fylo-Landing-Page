@@ -47,7 +47,7 @@ h1, h2, p {
     font-size: .7rem;
 }
 
-.contact {
+footer {
     background-color: hsl(243, 87%, 12%);
 }
 
@@ -63,11 +63,19 @@ a {
 }
 
 .logo {
-    width: 15%;
+    width: 100%;
 }
 
 .navItems li {
     margin-left: 3em;
+}
+
+.navItems li:first-child {
+    margin-left: 0;
+}
+
+.navItems {
+    padding-left: 0;
 }
 
 nav {
@@ -94,8 +102,7 @@ nav, .navItems,
 }
 
 nav, .navItems, .bio,
-.signup, .contact,
-.icons {
+.signup,.icons {
     align-items: center;
 }
 
@@ -132,7 +139,7 @@ nav, .content,
 .col-img,
 .col-content,
 .signup-info,
-.form {
+.formInfo {
     width: 45%;
 }
 
@@ -232,33 +239,33 @@ nav, .content,
     color: white;
 }
 
-.form input {
+.formInfo input {
     display: block;
     width: 90%;
     margin-bottom: 1em;
     box-shadow: none;
 }
 
-.form .btn {
+.formInfo .btn {
     margin: 0;
     box-shadow: none;
 }
 
-.contact {
+footer {
     padding: 6em 4em;
 }
 
 .contact-info {
     width: 30%;
+    margin-top: .8em;
 }
 
 .footNav {
     width: 50%;
     align-items: baseline;
-    margin-top: 3em;
 }
 
-.footNav li {
+.list li {
     padding-bottom: 1em;
 }
 
@@ -291,7 +298,8 @@ body {
 }
 
 .mid p, .card,
-.form,  .signup{
+.formInfo, .signup,
+nav {
     width: 100%;
 }
 
@@ -307,8 +315,8 @@ body {
     margin-bottom: 2em;
 }
 
-.btn, .mail, .form .btn,
-.form .mail{
+.btn, .mail, .formInfo .btn,
+.formInfo .mail{
     display: block;
     width: 100%;
 }
@@ -323,14 +331,15 @@ body {
 
 nav {
     margin-top: 1em;
+    padding: 1em;
+}
+
+.logo {
+    width: 70%;
 }
 
 .navItems li {
     margin-left: 1em;
-}
-
-.logo {
-    width: 25%;
 }
 
 h1 {
@@ -345,22 +354,13 @@ h3 {
     font-size: 1.3rem;
 }
 
-.contact {
-    padding: 4em 2em;
-    align-items: flex-start;
-}
-
-.list {
+.list, .contact  {
     padding-left: 0;
-}
-
-.icons {
-   margin-left: 4.2em;
 }
 }
 
 @media (min-width: 760px) and (max-width: 920px) {
-    .form .btn {
+    .formInfo .btn {
         width: 55%;
     }
 
